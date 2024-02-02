@@ -4,12 +4,15 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseDriver {
 	WebDriver driver;
 
+	@BeforeSuite
 	public void initializeDriver() {
 		String browserName = System.getProperty("browser", "chrome");
 
@@ -32,6 +35,11 @@ public class BaseDriver {
 			WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver();
 		}
+	}
+	
+	@AfterSuite
+	public void close() {
+		driver.close();
 	}
 
 }
