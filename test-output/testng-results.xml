@@ -1,73 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-08T20:40:53 BDT" name="Default suite" finished-at="2024-02-08T20:40:53 BDT" duration-ms="163">
+  <suite started-at="2024-02-09T03:24:38 BDT" name="Default suite" finished-at="2024-02-09T03:24:56 BDT" duration-ms="18120">
     <groups>
     </groups>
-    <test started-at="2024-02-08T20:40:53 BDT" name="Default test" finished-at="2024-02-08T20:40:53 BDT" duration-ms="163">
-      <class name="webautomationv1.testNGExxamples">
-        <test-method is-config="true" signature="beforeSuiteEx()[pri:0, instance:webautomationv1.testNGExxamples@3f4faf53]" started-at="2024-02-08T20:40:53 BDT" name="beforeSuiteEx" finished-at="2024-02-08T20:40:53 BDT" duration-ms="45" status="PASS">
+    <test started-at="2024-02-09T03:24:38 BDT" name="Default test" finished-at="2024-02-09T03:24:56 BDT" duration-ms="18120">
+      <class name="webautomationv1.locationExample">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:webautomationv1.locationExample@302c971f]" started-at="2024-02-09T03:24:35 BDT" name="initializeDriver" finished-at="2024-02-09T03:24:38 BDT" duration-ms="2548" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeSuiteEx -->
-        <test-method is-config="true" signature="beforeTestEx()[pri:0, instance:webautomationv1.testNGExxamples@3f4faf53]" started-at="2024-02-08T20:40:53 BDT" name="beforeTestEx" finished-at="2024-02-08T20:40:53 BDT" duration-ms="0" status="PASS">
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="locationTest()[pri:0, instance:webautomationv1.locationExample@302c971f]" started-at="2024-02-09T03:24:38 BDT" name="locationTest" finished-at="2024-02-09T03:24:56 BDT" duration-ms="18055" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTestEx -->
-        <test-method is-config="true" signature="beforeClassEx()[pri:0, instance:webautomationv1.testNGExxamples@3f4faf53]" started-at="2024-02-08T20:40:53 BDT" name="beforeClassEx" finished-at="2024-02-08T20:40:53 BDT" duration-ms="1" status="PASS">
+        </test-method> <!-- locationTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:webautomationv1.locationExample@302c971f]" started-at="2024-02-09T03:24:56 BDT" name="close" finished-at="2024-02-09T03:24:57 BDT" duration-ms="892" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClassEx -->
-        <test-method is-config="true" signature="beforeMethodEx()[pri:0, instance:webautomationv1.testNGExxamples@3f4faf53]" started-at="2024-02-08T20:40:53 BDT" name="beforeMethodEx" finished-at="2024-02-08T20:40:53 BDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethodEx -->
-        <test-method signature="testExample2()[pri:0, instance:webautomationv1.testNGExxamples@3f4faf53]" started-at="2024-02-08T20:40:53 BDT" name="testExample2" finished-at="2024-02-08T20:40:53 BDT" duration-ms="20" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testExample2 -->
-        <test-method is-config="true" signature="afterMethodEx()[pri:0, instance:webautomationv1.testNGExxamples@3f4faf53]" started-at="2024-02-08T20:40:53 BDT" name="afterMethodEx" finished-at="2024-02-08T20:40:53 BDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethodEx -->
-        <test-method signature="testExample()[pri:1, instance:webautomationv1.testNGExxamples@3f4faf53]" started-at="2024-02-08T20:40:53 BDT" name="testExample" finished-at="2024-02-08T20:40:53 BDT" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testExample -->
-        <test-method is-config="true" signature="beforeMethodEx()[pri:0, instance:webautomationv1.testNGExxamples@3f4faf53]" started-at="2024-02-08T20:40:53 BDT" name="beforeMethodEx" finished-at="2024-02-08T20:40:53 BDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethodEx -->
-        <test-method is-config="true" signature="afterMethodEx()[pri:0, instance:webautomationv1.testNGExxamples@3f4faf53]" started-at="2024-02-08T20:40:53 BDT" name="afterMethodEx" finished-at="2024-02-08T20:40:53 BDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethodEx -->
-        <test-method signature="testExample3()[pri:2, instance:webautomationv1.testNGExxamples@3f4faf53]" started-at="2024-02-08T20:40:53 BDT" name="testExample3" finished-at="2024-02-08T20:40:53 BDT" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testExample3 -->
-        <test-method is-config="true" signature="beforeMethodEx()[pri:0, instance:webautomationv1.testNGExxamples@3f4faf53]" started-at="2024-02-08T20:40:53 BDT" name="beforeMethodEx" finished-at="2024-02-08T20:40:53 BDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethodEx -->
-        <test-method is-config="true" signature="afterMethodEx()[pri:0, instance:webautomationv1.testNGExxamples@3f4faf53]" started-at="2024-02-08T20:40:53 BDT" name="afterMethodEx" finished-at="2024-02-08T20:40:53 BDT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethodEx -->
-        <test-method is-config="true" signature="afterClassEx()[pri:0, instance:webautomationv1.testNGExxamples@3f4faf53]" started-at="2024-02-08T20:40:53 BDT" name="afterClassEx" finished-at="2024-02-08T20:40:53 BDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClassEx -->
-        <test-method is-config="true" signature="afterTestEx()[pri:0, instance:webautomationv1.testNGExxamples@3f4faf53]" started-at="2024-02-08T20:40:53 BDT" name="afterTestEx" finished-at="2024-02-08T20:40:53 BDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTestEx -->
-        <test-method is-config="true" signature="afterSuiteEx()[pri:0, instance:webautomationv1.testNGExxamples@3f4faf53]" started-at="2024-02-08T20:40:53 BDT" name="afterSuiteEx" finished-at="2024-02-08T20:40:53 BDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuiteEx -->
-      </class> <!-- webautomationv1.testNGExxamples -->
+        </test-method> <!-- close -->
+      </class> <!-- webautomationv1.locationExample -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

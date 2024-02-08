@@ -10,7 +10,7 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class testNGExxamples {
+public class testNGExamples {
 @Test (priority = 1)
 	public void testExample() {
 		System.out.println("Test Example");
