@@ -10,11 +10,11 @@ import org.testng.annotations.BeforeSuite;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseDriver {
-	WebDriver driver;
+	WebDriver driver;  //to communicate with browser. Driver is Selenium Web Driver
 
 	@BeforeSuite
 	public void initializeDriver() {
-		String browserName = System.getProperty("browser", "chrome");
+		String browserName = System.getProperty("browser", "firefox");
 
 		if (browserName.equals("chrome")) {
 			// Code for Chrome
@@ -22,7 +22,7 @@ public class BaseDriver {
 			
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
-			
+	 		
 		} else if (browserName.equals("firefox")) {
 			// Code for Firefox
 			System.out.println("Initializing Firefox driver...");
