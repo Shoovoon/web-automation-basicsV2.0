@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-09T03:24:38 BDT" name="Default suite" finished-at="2024-02-09T03:24:56 BDT" duration-ms="18120">
+  <suite started-at="2024-02-11T01:39:00 BDT" name="Default suite" finished-at="2024-02-11T01:39:25 BDT" duration-ms="25229">
     <groups>
     </groups>
-    <test started-at="2024-02-09T03:24:38 BDT" name="Default test" finished-at="2024-02-09T03:24:56 BDT" duration-ms="18120">
+    <test started-at="2024-02-11T01:39:00 BDT" name="Default test" finished-at="2024-02-11T01:39:25 BDT" duration-ms="25229">
       <class name="webautomationv1.locationExample">
-        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:webautomationv1.locationExample@302c971f]" started-at="2024-02-09T03:24:35 BDT" name="initializeDriver" finished-at="2024-02-09T03:24:38 BDT" duration-ms="2548" status="PASS">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:webautomationv1.locationExample@302c971f]" started-at="2024-02-11T01:38:57 BDT" name="initializeDriver" finished-at="2024-02-11T01:39:00 BDT" duration-ms="2550" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method signature="locationTest()[pri:0, instance:webautomationv1.locationExample@302c971f]" started-at="2024-02-09T03:24:38 BDT" name="locationTest" finished-at="2024-02-09T03:24:56 BDT" duration-ms="18055" status="PASS">
+        <test-method signature="locationTest()[pri:0, instance:webautomationv1.locationExample@302c971f]" started-at="2024-02-11T01:39:00 BDT" name="locationTest" finished-at="2024-02-11T01:39:25 BDT" duration-ms="25165" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- locationTest -->
-        <test-method is-config="true" signature="close()[pri:0, instance:webautomationv1.locationExample@302c971f]" started-at="2024-02-09T03:24:56 BDT" name="close" finished-at="2024-02-09T03:24:57 BDT" duration-ms="892" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:webautomationv1.locationExample@302c971f]" started-at="2024-02-11T01:39:25 BDT" name="close" finished-at="2024-02-11T01:39:25 BDT" duration-ms="322" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
