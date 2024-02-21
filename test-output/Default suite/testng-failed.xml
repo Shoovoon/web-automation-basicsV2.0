@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="webautomationv1.locationExample">
+      <class name="webautomationv1.locatorExampleNopCommerce">
         <methods>
-          <include name="locationTest"/>
           <include name="close"/>
           <include name="initializeDriver"/>
+          <include name="locationTest"/>
         </methods>
-      </class> <!-- webautomationv1.locationExample -->
+      </class> <!-- webautomationv1.locatorExampleNopCommerce -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
